@@ -272,12 +272,17 @@
 
     /* Satisfaction badge — bottom left, inside card padding area */
     .badge-sat{
-      position:absolute;bottom:14px;left:22px;
+      position:absolute; 
+      
+      /* top:2px;  */
+      bottom:8px;
+      left:22px;
       background:var(--navy);color:#fff;
       border-radius:10px;padding:10px 16px;
       box-shadow:var(--sh-md);
       display:flex;align-items:center;gap:10px;
       z-index:10;
+      margin-top: 40px;
     }
     .badge-sat .bs-icon{
       width:36px;height:36px;

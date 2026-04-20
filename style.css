@@ -254,7 +254,7 @@
     .doc-img-box svg{position:relative;z-index:1;display:block}
 
     /* Card bottom info */
-    .doc-info{padding:20px 22px 52px;border-top:1px solid var(--border)}
+    .doc-info{padding:20px 22px 77px;border-top:1px solid var(--border)}
     .doc-info h3{font-family:var(--serif);font-size:1.05rem;color:var(--navy);margin-bottom:3px}
     .doc-info p{font-size:.78rem;color:var(--muted)}
 
@@ -282,7 +282,7 @@
       box-shadow:var(--sh-md);
       display:flex;align-items:center;gap:10px;
       z-index:10;
-      margin-top: 40px;
+      /* margin-top: 40px; */
     }
     .badge-sat .bs-icon{
       width:36px;height:36px;

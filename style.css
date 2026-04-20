@@ -311,7 +311,7 @@
        ABOUT
     ══════════════════════════════════════════ */
     #about{padding:110px 0;background:var(--white)}
-    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:flex-start}
 
     .about-vis{position:relative}
     .about-main{

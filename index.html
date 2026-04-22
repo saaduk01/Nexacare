@@ -20,6 +20,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@300;400;600&family=Lora:ital@1&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="style.css">
+<link rel="preload" as "image" href="images/farukh siddique.webp" fetchpriority="high">
+
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?..."
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?..." rel="stylesheet"/>
+</noscript>
+
+
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
   {
@@ -45,6 +56,8 @@
   
 </head>
 <body>
+
+  <main id = "main-content">
 
   <!-- Cursor -->
   <div id="cd" aria-hidden="true"></div>
@@ -171,7 +184,7 @@
               </svg> -->
 
 <img 
-  src="images/farukh siddique.png" 
+  src="images/farukh siddique.webp" 
   alt="Dr. Farrukh Siddiqui, Chief of Medicine at NexaCare"
   style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;"
 />            </div>
@@ -235,7 +248,7 @@
           <div class="about-main" aria-hidden="true">
             <!-- <svg width="110" height="110" viewBox="0 0 110 110" fill="none"><rect x="15" y="15" width="80" height="80" rx="8" fill="white" opacity=".12"/><path d="M55 30v50M30 55h50" stroke="white" stroke-width="6" stroke-linecap="round" opacity=".4"/><circle cx="55" cy="55" r="42" stroke="white" stroke-width="1.5" opacity=".18"/></svg> -->
         <img 
-  src="images/consulting.png" 
+  src="images/consulting.webp" 
   alt="Dr. Farrukh Siddiqui, Chief of Medicine at NexaCare"
   style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;"
 />            </div> 
@@ -281,7 +294,7 @@
         <article class="dc rv d1">
           <div class="dc-img" style="background:linear-gradient(135deg,#dde6f0,#b8cfe6)">
             <img 
-    src="images/dr farukh.png" 
+    src="images/dr farukh.webp" 
     alt="Dr. Farrukh Siddiqui"
     style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;"
   />
@@ -295,7 +308,7 @@
         <article class="dc rv d2">
           <div class="dc-img" style="background:linear-gradient(135deg,#e6ddf0,#c5bde8)">
            <img 
-    src="images/dr naida.png" 
+    src="images/dr naida.webp" 
     alt="Dr. Nadia Rashid"
     style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;"
   />
@@ -309,7 +322,7 @@
         <article class="dc rv d3">
           <div class="dc-img" style="background:linear-gradient(135deg,#ddf0e6,#bde8cc)">
           <img 
-    src="images/dr tariq mehmood.png" 
+    src="images/dr tariq mehmood.webp" 
     alt="Dr. Tariq Mahmood"
     style="width:100%; height:100%; object-fit:cover; object-position:top center; display:block;"
   />
@@ -381,27 +394,27 @@
       <div class="gal-grid rv d1">
  
         <div class="gi" aria-label="Reception area">
-          <img src="images/waiting area.png" alt="Waiting area at NexaCare Medical Centre" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+          <img src="images/waiting area.webp" alt="Waiting area at NexaCare Medical Centre" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
           <div class="gi-lbl">Reception &amp; Waiting Area</div>
         </div>
  
         <div class="gi" aria-label="Consultation room">
-          <img src="images/consultation room.png" alt="Consultation room at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+          <img src="images/consultation room.webp" alt="Consultation room at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
           <div class="gi-lbl">Consultation Room</div>
         </div>
  
         <div class="gi" aria-label="Pathology lab">
-          <img src="images/pathalogy lab.png" alt="Pathology lab at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+          <img src="images/pathalogy lab.webp" alt="Pathology lab at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
           <div class="gi-lbl">Pathology Lab</div>
         </div>
  
         <div class="gi" aria-label="Cardiology suite">
-          <img src="images/cardiology suite.png" alt="Cardiology suite at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+          <img src="images/cardiology suite.webp" alt="Cardiology suite at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
           <div class="gi-lbl">Cardiology Suite</div>
         </div>
  
         <div class="gi" aria-label="In-house pharmacy">
-          <img src="images/inhouse pharmacy.png" alt="In-house pharmacy at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
+          <img src="images/inhouse pharmacy.webp" alt="In-house pharmacy at NexaCare" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block;"/>
           <div class="gi-lbl">In-house Pharmacy</div>
         </div>
  
@@ -503,8 +516,8 @@
             <div class="fg"><label>Phone Number</label><input type="tel" placeholder="+92 300 000 0000" autocomplete="tel"/></div>
           </div>
           <div class="fg">
-            <label>Select Department</label>
-            <select>
+            <label for="dept-select">Select Department</label>
+            <select id="dept-select">
               <option value="" disabled selected>Choose a specialist</option>
               <option>General Medicine / OPD</option>
               <option>Diagnostics &amp; Lab Tests</option>
@@ -578,7 +591,7 @@
   </footer>
 
   <!-- ════════════ JS (deferred, non-blocking) ════════════ -->
-  
+  </main>
 </body>
 
 <script src="script.js"></script>

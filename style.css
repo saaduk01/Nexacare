@@ -112,6 +112,7 @@
     .logo-txt span{color:var(--green)}
 
     /* Desktop links */
+    .nav-link: #4a5568;
     .nav-links{display:flex;gap:28px;list-style:none;align-items:center}
     .nav-links a{
       font-size:.85rem;font-weight:600;letter-spacing:.02em;
